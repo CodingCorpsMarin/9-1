@@ -16,6 +16,5 @@ LEFT JOIN [second table]
 ON [left table element = right table element]
 WHERE [conditions]
 
-Inner join: https://community.modeanalytics.com/sql/tutorial/sql-inner-join/
-
-Outer join: https://community.modeanalytics.com/sql/tutorial/sql-outer-joins/
+Inner join: https://sqlbolt.com/lesson/select_queries_with_joins 
+Outer join: https://sqlbolt.com/lesson/select_queries_with_outer_joins
