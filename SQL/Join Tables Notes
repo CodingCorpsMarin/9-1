@@ -1,0 +1,28 @@
+
+Competencies
+
+Databases aren’t always going to just one table, in fact, they almost never are
+When you have data that references something in another table, you can call that data using a join table
+Many types of joins, INNER JOIN, RIGHT JOIN, LEFT JOIN, FULL OUTER JOIN, etc
+Tables that share data about a particular element need “primary keys” to identify it across the database
+Typically, one table has a column that references an id of the other table’ primary key
+INNER JOIN matches rows from 1st table and 2nd table that have the same key. (INNER JOIN is sometimes written as JOIN)
+LEFT JOIN, similar syntax to INNER JOIN. Basically displays all the results from the “left” table along with any matching results from the “right” table
+LEFT table is the table listed first in your query, RIGHT table is the table listed second
+RIGHT JOIN is the same idea, will display all results from “right” table as well as any matching results from the “left” table
+OUTER JOIN just basically prints out everything from both tables
+Typically, people only really use LEFT JOIN since RIGHT JOIN is the same thing but arranged differently
+Results print out in a new table
+
+
+Applications
+Recognize when to use specific join tables
+Utilize join tables in queries
+
+
+
+Additional Resources:
+
+https://www.w3schools.com/sql/sql_join.asp
+https://www.w3schools.com/sql/sql_join_inner.asp
+http://www.dofactory.com/sql/join
