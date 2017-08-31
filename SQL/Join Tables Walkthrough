@@ -1,0 +1,21 @@
+We’ll use online resources for this walkthrough because they’ll have better/more workable databases to play with. For now, let’s go through the syntax for JOIN TABLES.
+
+INNER JOIN
+
+SELECT [column1], [column2], … (this is the information you are trying to query)
+FROM [first table]
+INNER JOIN [second table]
+ON [left table element.id = right table element_id] (this is where primary keys come into play)
+WHERE [conditions]
+
+LEFT (outer) JOIN (works for all outer joins)
+
+SELECT [column1], [column2], …
+FROM [first table]
+LEFT JOIN [second table]
+ON [left table element = right table element]
+WHERE [conditions]
+
+Inner join: https://sqlbolt.com/lesson/select_queries_with_joins
+
+Outer join: https://sqlbolt.com/lesson/select_queries_with_outer_joins
