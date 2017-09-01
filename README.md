@@ -6,3 +6,6 @@
 SQL Join Tables
 
 
+### For next time
+
+Flatiron Table Relations Chapter
